@@ -88,7 +88,6 @@ finally:
 
 
 DEFAULT_FROM_EMAIL = 'sg.rpa@cgs-cimb.com'
-#DEFAULT_TO_EMAIL = ["ramireddy.b@cgs-cimb.com"]
 DEFAULT_TO_EMAIL = ["jayshri.r@rosemallowtech.com"]
 
 STATIC_URL = '/static/'
