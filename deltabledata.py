@@ -169,7 +169,7 @@ def sendmailtask(strmsg):
 
 
 
-if __name__ == "__main__":
+if __name__ == "__main":
     try:
         app_logger.info("delete older days data functionality started .")
         print("delete older days data functionality started .")
@@ -177,6 +177,6 @@ if __name__ == "__main__":
         print("delete older days data functionality Completed Successfully.")
         app_logger.info("delete older days data functionality Completed Successfully.")
     except Exception as e:
-        raise app_logger.exception("Error occured in the delete data script : " + str(e))
+        # raise app_logger.exception("Error occured in the delete data script : " + str(e))
     
     
